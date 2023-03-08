@@ -1,0 +1,17 @@
+{
+  "name": "luangouveiax/basemvc",
+  "description": "Arquitetura base em MVC para projetos PHP",
+  "authors":[
+    {
+      "name": "Luan Xavier",
+      "email": "luan.gouveiax@gmail.com"
+    }
+  ],
+  "autoload":{
+    "psr-4":{
+      "Core\\": "core",
+      "Sts\\": "app/sts",
+      "App\\": "app"
+    }
+  }
+}
