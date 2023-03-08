@@ -25,7 +25,7 @@ class Posts
         $sql->execute();
 
         if($sql->rowCount() > 0){
-            $ramal = $sql->fetch( PDO::FETCH_ASSOC );
+            $this->dados = $sql->fetch( PDO::FETCH_ASSOC );
             return $this->dados;
         }else{
             return false;
